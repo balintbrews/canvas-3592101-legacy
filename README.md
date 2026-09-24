@@ -4,8 +4,8 @@ Install the released baseline with Node 22.19+ (22.x) or Node 24.5+:
 npm ci
 ```
 
-For repaired Workbench site metadata, install the MR packages below in a
-disposable copy until released. Set `CANVAS_MR` to a separate Canvas checkout at
+Install packages from the MR in a disposable copy. Set `CANVAS_MR` to a
+separate Canvas checkout at
 `025c6a7af034447dd0b2941d2196c05aa7f6a117`:
 
 ```sh
