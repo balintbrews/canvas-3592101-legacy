@@ -1,5 +1,4 @@
 import {
-  canvasFormatDateTime,
   cn,
   FormattedText,
   getNodePath,
@@ -90,9 +89,7 @@ export default function ArticleList({ resourceType, image, className }) {
                   {article.title}
                 </a>
               </h3>
-              <time dateTime={article.created}>
-                {canvasFormatDateTime(article.created)}
-              </time>
+              <time dateTime={article.created}>{article.created}</time>
               <FormattedText>{article.body.processed}</FormattedText>
             </li>
           ))}
